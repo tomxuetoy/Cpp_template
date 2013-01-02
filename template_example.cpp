@@ -1,6 +1,6 @@
 #include <iostream>
  
-template <typename T>
+template <class T>  // class or typename
 inline const T& maximum(const T& x,const T& y)
 {
    if(y > x)
