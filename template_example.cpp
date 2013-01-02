@@ -15,6 +15,6 @@ int main(void)
    //Calling template function
    std::cout << maximum<int>(3,7) << std::endl;         //输出 7
    std::cout << maximum(3, 7) << std::endl;             //和上面相同
-   std::cout << maximum<double>(3.0,7.0) << std::endl;  //输出 7
+   std::cout << maximum<double>(3.0,7.0) << std::endl;  //输出 7, <double> can be removed
    return 0;
 }
