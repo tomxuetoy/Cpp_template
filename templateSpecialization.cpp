@@ -115,3 +115,8 @@ int main() {
 //Ths hashcode is 1010.
 //This is 'template <> class CalcHashClass<const char*>'.
 //Ths hashcode is 500.
+//
+//
+//
+//通过上面的示例可以看出，模板特化是依赖于编译器在编译期动态决定该使用哪个特化类，或是标准模板类的。
+//相比于多态的后期动态绑定，该方式的运行效率更高，同时灵活性也没有被更多的牺牲
